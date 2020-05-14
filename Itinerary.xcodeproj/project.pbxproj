@@ -16,6 +16,7 @@
 		932B94962427061C00A9FEA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932B94952427061C00A9FEA3 /* SceneDelegate.swift */; };
 		932B949D2427061D00A9FEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932B949C2427061D00A9FEA3 /* Assets.xcassets */; };
 		932B94A02427061D00A9FEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932B949E2427061D00A9FEA3 /* LaunchScreen.storyboard */; };
+		93E7DEEB246DB56C0076B2C5 /* TripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DEEA246DB56C0076B2C5 /* TripsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		932B949C2427061D00A9FEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932B949F2427061D00A9FEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		932B94A12427061D00A9FEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E7DEEA246DB56C0076B2C5 /* TripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				932A3504246C7B56004C377A /* TripsViewController.storyboard */,
 				932A3508246C7C2A004C377A /* TripsViewController.swift */,
+				93E7DEEA246DB56C0076B2C5 /* TripsTableViewCell.swift */,
 			);
 			path = TripsViewController;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				932B94962427061C00A9FEA3 /* SceneDelegate.swift in Sources */,
 				932A3509246C7C2A004C377A /* TripsViewController.swift in Sources */,
 				932A34FD246C708D004C377A /* TripFunctions.swift in Sources */,
+				93E7DEEB246DB56C0076B2C5 /* TripsTableViewCell.swift in Sources */,
 				932A34FB246C7081004C377A /* TripModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCDXGXX438;
 				INFOPLIST_FILE = Itinerary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCDXGXX438;
 				INFOPLIST_FILE = Itinerary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
