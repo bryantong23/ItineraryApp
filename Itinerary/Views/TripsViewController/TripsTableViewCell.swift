@@ -13,17 +13,26 @@ class TripsTableViewCell: UITableViewCell {
     @IBOutlet weak var cardView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        cardView.layer.shadowOpacity = 1
-        cardView.layer.shadowOffset = CGSize.zero
-        cardView.layer.shadowColor = UIColor.darkGray.cgColor
-        cardView.layer.cornerRadius = 10
+        cardView.addShadowAndRoundedCorners()
+        
     }
     
     func setup(tripModel: TripModel) {
         titleLabel.text = tripModel.title
     }
 }
+
+extension UIView {
+
+    func addShadowAndRoundedCorners() {
+        layer.shadowOpacity = 1
+        layer.shadowOffset = CGSize.zero
+        layer.shadowColor = UIColor.darkGray.cgColor
+        layer.cornerRadius = 10
+    }
+
+}
+
