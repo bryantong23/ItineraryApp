@@ -50,11 +50,17 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztf-Yt-4Sb">
+                                <rect key="frame" x="307" y="596" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="zjt-RB-tJh"/>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="ztf-Yt-4Sb" id="xfv-aO-4QU"/>
                         <outlet property="tableView" destination="zai-wb-foB" id="N5b-Ib-n4e"/>
                     </connections>
                 </viewController>
@@ -63,4 +69,7 @@
             <point key="canvasLocation" x="119.2" y="-155.17241379310346"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="button" width="32" height="33"/>
+    </resources>
 </document>
