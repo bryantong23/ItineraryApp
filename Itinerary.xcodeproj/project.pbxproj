@@ -16,7 +16,7 @@
 		932B94962427061C00A9FEA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932B94952427061C00A9FEA3 /* SceneDelegate.swift */; };
 		932B949D2427061D00A9FEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932B949C2427061D00A9FEA3 /* Assets.xcassets */; };
 		932B94A02427061D00A9FEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932B949E2427061D00A9FEA3 /* LaunchScreen.storyboard */; };
-		9336E9CE247305080068DE1B /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9336E9CD247305080068DE1B /* UIButtonExtension.swift */; };
+		934465D72473455F00ED4F9E /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934465D62473455F00ED4F9E /* UIButtonExtension.swift */; };
 		93E7DEEB246DB56C0076B2C5 /* TripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DEEA246DB56C0076B2C5 /* TripsTableViewCell.swift */; };
 		93E7DEF0246DBDB30076B2C5 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DEEF246DBDB30076B2C5 /* UIViewExtensions.swift */; };
 		93E7DEF3246DC1BD0076B2C5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DEF2246DC1BD0076B2C5 /* Theme.swift */; };
@@ -36,7 +36,7 @@
 		932B949C2427061D00A9FEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932B949F2427061D00A9FEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		932B94A12427061D00A9FEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9336E9CD247305080068DE1B /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		934465D62473455F00ED4F9E /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		93E7DEEA246DB56C0076B2C5 /* TripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewCell.swift; sourceTree = "<group>"; };
 		93E7DEEF246DBDB30076B2C5 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		93E7DEF2246DC1BD0076B2C5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				93E7DEEF246DBDB30076B2C5 /* UIViewExtensions.swift */,
-				9336E9CD247305080068DE1B /* UIButtonExtension.swift */,
+				934465D62473455F00ED4F9E /* UIButtonExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E7DEF3246DC1BD0076B2C5 /* Theme.swift in Sources */,
-				9336E9CE247305080068DE1B /* UIButtonExtension.swift in Sources */,
+				934465D72473455F00ED4F9E /* UIButtonExtension.swift in Sources */,
 				932B94942427061C00A9FEA3 /* AppDelegate.swift in Sources */,
 				932A34FF246C7265004C377A /* Data.swift in Sources */,
 				93E7DEF0246DBDB30076B2C5 /* UIViewExtensions.swift in Sources */,
